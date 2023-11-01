@@ -13,7 +13,7 @@ const mocks = [
       data: {
         menus: [
           { id: '1', name: 'Menu 1', price: 10, createdAt: '2023-01-01' },
-          { id: '2', name: 'Menu 2', price: 20, createdAt: '2023-01-02' },
+          { id: '2', name: 'Menu 2', price: 20, createdAt: '2023-01-04' },
         ],
       },
     },
@@ -26,9 +26,9 @@ const mocks = [
     result: {
       data: {
         searchMenus: [
-          { id: '1', name: 'Menu 1', price: 10, createdAt: '2023-01-01' },
+          { id: '1', name: 'Menu 1', price: 10, createdAt: '2023-01-03' },
           { id: '2', name: 'Menu 2', price: 10, createdAt: '2023-01-01' },
-          { id: '3', name: 'Menu 3', price: 10, createdAt: '2023-01-01' },
+          { id: '3', name: 'Menu 3', price: 10, createdAt: '2023-01-05' },
         ],
       },
     },
