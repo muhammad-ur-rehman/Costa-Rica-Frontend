@@ -10,6 +10,7 @@ const SearchBox = ({ searchTerm, onSearchChange, onToggleSort, sortByPrice }) =>
         value={searchTerm}
         onChange={onSearchChange}
       />
+
       <button className="search-button" onClick={onToggleSort}>
         {sortByPrice ? 'Unsort' : 'Sort by Price'}
       </button>

@@ -31,6 +31,7 @@ const MenuTable = () => {
         onToggleSort={toggleSort}
         sortByPrice={sortByPrice}
       />
+
       <table>
         <thead>
           <tr>
